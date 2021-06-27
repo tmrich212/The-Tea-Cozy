@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, body {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+}
+
+/* NAVBAR STYLING */
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100vw;
+    max-width: 1300px;
+    margin: 0;  was 10px
+    padding: 10px;
+    position: fixed;
+}
+
+.navbar_container img {
+    height: 50px;
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.navbar_links {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+} 
+
+.navbar_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+
+h2, h3, h4, h5 {
+    text-align: center;
+}
+
+#store {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  span a {
+    text-decoration: none;
+  }
+
+  .item {
+    padding: 5px;
+  }
+  
+  .item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+  }
+  
+  .item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+ 
+
+.main {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.content {
+    margin-top: 320px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    vertical-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.content h2, h4 {
+    margin: 15px;
+}
+
+
+.locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+.locationheader {
+  position: absolute;
+  margin-top: 4%;
+  margin-bottom: 15px;
+  background-color: transparent;
+  color: seashell;
+}
+
+.loc {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    /* margin: 10px; */
+}
+
+.loc h3 {
+    padding: 20px 0;
+}
+
+.loc p {
+    margin: 15px;
+}
+
+.address {
+    padding: 10px;
+    opacity: 1;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+footer {
+    /* height: 200px; */
+    margin: 0;
+    padding: 0;
+}
+
+footer h2, h5 {
+    padding: 20px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 640px){
+    * {
+  /*     box-sizing: border-box; */
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navbar_container img {
+      height: 69px;
+      margin-right: 15px;
+      display: flex;
+    }
+  
+    .navbar_container {
+      display: flex;
+      width: 100%;
+      margin: 0;
+    }
+    
+    .navbar_menu {
+      width: 100vw;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .navbar_item a {
+      margin-right: 10px;
+      font-size: xx-large;
+      display: inline;
+    }
+  
+    .navbar_links{
+      margin: 15px;
+      padding:inherit;
+      font-size: x-large;
+    }
+  
+     .main {
+       display: flex;
+       justify-content: center;
+       align-self: center;
+       height: 70vh;
+     }
+  
+     .content {
+       display: flex;
+       flex-direction: column;
+       justify-items: center;
+       align-self: center;
+       width: 100vw;
+       margin: auto;
+     }
+  
+     .content h2 {
+       font-size: xx-large;
+     }
+    
+    .content h4 {
+      font-size: x-large;
+      letter-spacing: 1px;
+    }
+  
+     #store {
+       margin-bottom: 270px;
+       width: 100vw;
+     }
+  
+    #store h2, h4 {
+      font-size: xx-large
+    }
+  
+    #store h4 {
+      margin-bottom: 30px;
+    }
+  
+     .flex-container span {
+       font-size: 25px;
+       letter-spacing: 1px;
+     }
+  
+     .locations {
+       height: 70vh;
+       display: flex;
+       flex-wrap: wrap;
+     }
+  
+     .locationheader {
+      margin-top: 300px;
+      font-size: xx-large;
+      letter-spacing: 1px;
+     }
+  
+     .loc {
+       font-size: x-large;
+     }
+  }
+      
+
