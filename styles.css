@@ -251,7 +251,10 @@ footer h2, h5 {
      #store {
        margin-bottom: 270px;
        width: 100vw;
-     }
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     ]
   
     #store h2, h4 {
       font-size: xx-large
